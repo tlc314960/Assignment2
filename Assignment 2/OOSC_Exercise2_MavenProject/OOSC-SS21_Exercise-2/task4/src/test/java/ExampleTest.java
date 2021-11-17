@@ -12,6 +12,9 @@ public class ExampleTest {
 
     @Test
     public void shouldPassWhenRequiredConditionIsTrue() {
-        require(true);
+        Student std2 = new SSE();
+        std2.setYear(new Freshman());
+        std2.info();
+        require(std2.getYear() instanceof Freshman);
     }
 }
