@@ -49,7 +49,7 @@ public class ExpressionTree {
                     if(p == 0)
                         c1 = i;
                     break;
-                case "*":case "/":
+                case "*":case "/": case "%":
                     if (p == 0)
                         c2 = i;
                     break;

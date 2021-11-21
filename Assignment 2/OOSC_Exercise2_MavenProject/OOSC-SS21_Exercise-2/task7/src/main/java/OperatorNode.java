@@ -23,6 +23,9 @@ public class OperatorNode extends Node{
             case "/":
                 res = currentNode.lNode.compute() / currentNode.rNode.compute();
                 break;
+            case "%":
+                res = currentNode.lNode.compute() % currentNode.rNode.compute();
+                break;
         }
         return res;
     }
