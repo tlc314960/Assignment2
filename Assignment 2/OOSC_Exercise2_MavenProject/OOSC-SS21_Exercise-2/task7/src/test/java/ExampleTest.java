@@ -12,6 +12,7 @@ public class ExampleTest {
 
     @Test
     public void shouldPassWhenRequiredConditionIsTrue() {
+        System.out.println("1234".substring(3,4));
         require(true);
     }
 
