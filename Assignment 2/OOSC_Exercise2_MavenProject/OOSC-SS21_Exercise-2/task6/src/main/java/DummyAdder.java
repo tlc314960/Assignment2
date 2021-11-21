@@ -1,4 +1,4 @@
-public class DummyAddier implements Addier {
+public class DummyAdder implements Adder {
     @Override
     public int addTowNums(int i, int i1) {
         for(; i1 > 0; i1--){

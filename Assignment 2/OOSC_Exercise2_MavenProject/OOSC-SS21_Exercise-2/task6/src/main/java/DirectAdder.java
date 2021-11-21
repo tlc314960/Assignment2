@@ -1,4 +1,4 @@
-public class DirectAddier implements Addier {
+public class DirectAdder implements Adder {
     @Override
     public int addTowNums(int i, int i1) {
         return i + i1;

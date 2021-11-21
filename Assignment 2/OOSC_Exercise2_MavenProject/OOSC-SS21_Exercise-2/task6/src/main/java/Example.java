@@ -6,11 +6,11 @@
 
 public class Example {
     public static void main(String[] args){
-        Addier add = new DirectAddier();
+        Adder add = new DirectAdder();
 
         System.out.println(add.addTowNums(2,3));
 
-        add = new DummyAddier();
+        add = new DummyAdder();
 
         System.out.println(add.addTowNums(2,3));
     }
